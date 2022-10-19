@@ -1,0 +1,29 @@
+.container{
+    align-content: center;
+    text-align: center;
+    background-color: rgb(201, 118, 118);
+    margin-top: 20px;
+}
+.t{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+button {   
+    background-color: #8e0525;   
+    width: auto;  
+     color: rgb(222, 185, 185);   
+     padding: 15px;   
+     margin: 10px 0px;   
+     border: none;   
+     cursor: pointer; 
+     border-radius: 0.6cm;
+     padding-top: 10px;
+     padding-right: 25px;
+      padding-bottom: 10px;
+     padding-left: 25px;
+     display: inline block;
+     text-align: center;
+
+      }  

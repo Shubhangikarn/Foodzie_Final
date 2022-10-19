@@ -9,6 +9,7 @@ import { FoodPageComponent } from './food-page/food-page.component';
 import { ForbiddenComponent } from './forbidden/forbidden.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
+import { OrderPlacedComponent } from './order-placed/order-placed.component';
 import { RegisterComponent } from './register/register.component';
 import { UserComponent } from './user/user.component';
 
@@ -18,6 +19,7 @@ const routes: Routes = [
   { path: 'admin', component: AdminComponent, canActivate:[AuthGuard], data:{roles:['Admin']} },
   { path: 'user', component: UserComponent ,  canActivate:[AuthGuard], data:{roles:['User']} },
   { path: 'login', component: LoginComponent },
+  {path: 'logout',component:HomeComponent},
   { path: 'forbidden', component: ForbiddenComponent },
   { path: 'tag/:tag', component: HomeComponent },
   { path: 'search/:searchTerm', component: HomeComponent },
@@ -27,7 +29,8 @@ const routes: Routes = [
   {path:'admin',component:AdminComponent},
   {path:'addfood', component:AddfoodComponent},
   {path:'add-category',component:AddCategoryComponent},
-  {path:'register', component:RegisterComponent}
+  {path:'register', component:RegisterComponent},
+  {path:'checkout',component:OrderPlacedComponent}
   
 ];
 

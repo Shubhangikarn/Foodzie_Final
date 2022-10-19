@@ -23,6 +23,10 @@ import { SearchComponent } from './search/search.component';
 import { TagComponent } from './tag/tag.component';
 import { TitleComponent } from './title/title.component';
 import { RegisterComponent } from './register/register.component';
+import { OrderPlacedComponent } from './order-placed/order-placed.component';
+import { TotalCategoryComponent } from './total-category/total-category.component';
+import { TotalFoodComponent } from './total-food/total-food.component';
+import { TotalOrdersComponent } from './total-orders/total-orders.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -41,7 +45,11 @@ import { RegisterComponent } from './register/register.component';
     SearchComponent,
     TagComponent,
     TitleComponent,
-    RegisterComponent
+    RegisterComponent,
+    OrderPlacedComponent,
+    TotalCategoryComponent,
+    TotalFoodComponent,
+    TotalOrdersComponent
   ],
   imports: [
     BrowserModule,
